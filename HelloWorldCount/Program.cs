@@ -32,7 +32,7 @@ public static class Words
             }
             print += " " + characters + " : " + Repeats + " ";
 
-            New_inputString = New_inputString.Replace(new String(characters, 1), string.Empty);
+            New_inputString = New_inputString.Replace(new string(characters, 1), string.Empty);
         }
         return print;
     }
